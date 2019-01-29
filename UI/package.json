@@ -1,0 +1,67 @@
+{
+  "name": "shinee-hotel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-datepicker": "^1.8.0",
+    "font-awesome": "^4.7.0",
+    "fontfaceobserver": "^2.0.13",
+    "history": "^4.7.2",
+    "hoist-non-react-statics": "^3.0.1",
+    "immutable": "^3.8.2",
+    "intl": "^1.2.5",
+    "invariant": "^2.2.4",
+    "jquery": "^3.3.1",
+    "jquery-parallax.js": "^1.5.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
+    "nprogress": "^0.2.0",
+    "owl-carousel": "^1.0.0",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.14.4",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.2.0",
+    "react": "^16.5.2",
+    "react-dates": "^18.2.2",
+    "react-dom": "^16.5.2",
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.7.1",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^5.0.7",
+    "react-redux-toastr": "^7.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.2",
+    "reselect": "^4.0.0",
+    "shufflejs": "^5.2.0",
+    "styled-components": "^3.4.10",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "set PORT=3005 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3400/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "offline-plugin": "^5.0.5",
+    "webpack-hot-middleware": "^2.24.3"
+  }
+}
